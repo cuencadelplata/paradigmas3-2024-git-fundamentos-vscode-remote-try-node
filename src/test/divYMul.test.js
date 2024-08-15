@@ -5,7 +5,7 @@ test('divides 9 + 3 to equals 3', () => {
 });
 
 test('multiplies 12 by 44 to equals 528', () => {
-    expect(divYMul(9, 3).div).toBe(3);
+    expect(divYMul(12, 44).mul).toBe(528);
 });
 
 test('multiplies and divides 59 by -34', () => {
