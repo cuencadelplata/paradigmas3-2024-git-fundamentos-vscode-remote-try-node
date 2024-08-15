@@ -7,7 +7,6 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "test": "npx jest"
   },
   "dependencies": {
     "express": "^4.19.2"
