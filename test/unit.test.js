@@ -1,9 +1,13 @@
+//suma
 const sum = require('../src/sum');
 
 test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).toBe(3);
 });
+
+//Suma de arrays
 //test suma de arrays
+
 const sumArray = require('../src/sumArrays');
 
 test('suma los elementos del array [1, 2, 3, 4] para obtener 10', () => {
@@ -13,12 +17,11 @@ test('suma los elementos del array [1, 2, 3, 4] para obtener 10', () => {
 test('suma los elementos del array [5, -3, 2, 8] para obtener 12', () => {
   expect(sumArray([5, -3, 2, 8])).toBe(12);
 });
-
 test('suma los elementos del array vacío para obtener 0', () => {
   expect(sumArray([])).toBe(0);
 });
 
-
+//string reversa
 const reverseString = require('../src/reverseString');
 
 test('reversa la cadena "hola" para obtener "aloh"', () => {
