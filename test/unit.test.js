@@ -18,7 +18,7 @@ test('suma los elementos del array vacío para obtener 0', () => {
   expect(sumArray([])).toBe(0);
 });
 
-//string reerso
+//string reversa
 const reverseString = require('../src/reverseString');
 
 test('reversa la cadena "hola" para obtener "aloh"', () => {
