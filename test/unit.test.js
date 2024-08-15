@@ -3,7 +3,7 @@ const sum = require('../src/sum');
 test('adds 1 + 2 to equal 3', () => {
   expect(sum(1, 2)).toBe(3);
 });
-
+//test suma de arrays
 const sumArray = require('../src/sumArrays');
 
 test('suma los elementos del array [1, 2, 3, 4] para obtener 10', () => {
