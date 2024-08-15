@@ -1,0 +1,16 @@
+{
+    "name": "docker_web_app",
+    "version": "1.0.0",
+    "description": "Node.js on Docker",
+    "author": "First Last <first.last@example.com>",
+    "main": "server.js",
+    "private": true,
+    "scripts": {
+        "start": "node server.js",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "express": "^4.19.2",
+        "jest": "^29.7.0"
+    }
+}
