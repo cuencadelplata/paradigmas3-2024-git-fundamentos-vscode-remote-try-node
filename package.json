@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "devDependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
     "jest": "^29.7.0"
   }
 }
