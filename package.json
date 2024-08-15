@@ -8,10 +8,8 @@
   "scripts": {
     "start": "node server.js",
   },
-  "dependencies": {
-    "express": "^4.19.2"
-  },
   "devDependencies": {
+    "express": "^4.19.2",
     "jest": "^29.7.0"
   }
 }
