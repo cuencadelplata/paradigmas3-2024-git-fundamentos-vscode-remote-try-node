@@ -1,9 +1,9 @@
 /**
- * Checks if the characters in a string are sorted in ascending order.
+ * Verifica si los caracteres en un string están ordenados en orden ascendente.
  *
- * @param {string} inputString - The string to be checked.
- * @returns {boolean} Returns `true` if the string is sorted, otherwise `false`.
- * @throws {TypeError} Throws an error if the input is not a string.
+ * @param {string} inputString - La cadena que se va a verificar.
+ * @returns {boolean} Devuelve `true` si la cadena está ordenada, de lo contrario `false`.
+ * @throws {TypeError} Lanza un error si la entrada no es una cadena.
  */
 function isStringSorted(inputString) {
     if (typeof inputString !== 'string' && !(inputString instanceof String)) {
