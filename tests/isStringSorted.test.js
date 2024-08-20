@@ -32,6 +32,8 @@ test('isStringSorted: true with mixed characters string', () => {
     expect(isStringSorted("()09Abc")).toBe(true);
 });
 
-test('isStringSorted: false with mixed characters string', () => {
-    expect(isStringSorted("Abc(09)")).toBe(false);
+test('isStringSorted: false with int input', () => {
+  expect(() => {
+    isStringSorted(1234);
+  }).toThrow(TypeError);
 });
